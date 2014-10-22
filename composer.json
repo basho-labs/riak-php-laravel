@@ -1,0 +1,32 @@
+{
+    "name": "basho/riak-laravel",
+    "description": "A Riak service provider library for use within Laravel applications.",
+    "keywords": [
+        "riak",
+        "session",
+        "cache",
+        "laravel",
+        "basho",
+        "key value"
+    ],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Christopher Mancini",
+            "email": "cmancini@basho.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Basho\\Riak\\": "src/"}
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.*",
+        "illuminate/cache": "4.*",
+        "illuminate/console": "4.*",
+        "basho/riak": "2.0.*@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.3.1"
+    }
+}
